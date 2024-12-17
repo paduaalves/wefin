@@ -42,5 +42,3 @@ CREATE TABLE wefin.transacao (
                            FOREIGN KEY (REINO_id) REFERENCES reino(id)
 );
 
-Modelo de Dados
-
