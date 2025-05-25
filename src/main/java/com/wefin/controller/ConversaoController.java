@@ -19,7 +19,7 @@ public class ConversaoController {
     }
 
     @Operation(
-            summary = "Converter produtos entre moedas",
+            summary = " Converter produtos entre moedas",
             description = "Realiza a conversão de produtos levando em consideração as moedas de origem/destino e o reino selecionado."
     )
     @GetMapping("/converter")
